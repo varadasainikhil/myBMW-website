@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CYBMW</title>
+
+    <!--BOOTSTRAP-->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--GOOGLE FONTS-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1416a968b2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--CSS-->
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--FAVICON-->
+
+    <link
+      rel="shortcut icon"
+      href="images/bmw-favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar-->
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="" id="name"> BMW</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer" id="tag">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing-section" id="tag">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta-section" id="tag">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!--Title-->
+        <div class="row">
+          <div class="col-lg-6 text-downloadbutton">
+            <h1 class="tagline">The Ultimate App to control your BMW.</h1>
+            <button type="button" class="download-button1 btn btn-dark btn-lg" onclick="window.location.href='https://apps.apple.com/gb/app/my-bmw/id1519034860';">
+              <i class="fa-brands fa-apple"></i>Download
+            </button>
+            <button type="button" class="download-button2 btn btn-dark btn-lg" onclick="window.location.href='https://play.google.com/store/apps/details?id=de.bmw.connected.mobile20.row&hl=en_IN&gl=US&pli=1';">
+              <i class="fa-brands fa-google-play" ></i>Download
+            </button>
+          </div>
+          <div class="col-lg-6" id="img-div">
+            <img class="appimage" src="images/bmw-app-withoutbg.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Features-->
+    <section id="features-section">
+      <div class="container-flex">
+        <div class="row">
+          <div class="col-lg-4">
+            <i class="fa-solid fa-temperature-three-quarters fa-4x"></i>
+            <h3>Control your Car's Temperature from your Home.</h3>
+            <p>Preheat it, just like your oven.</p>
+          </div>
+
+          <div class="col-lg-4">
+            <i class="fa-solid fa-heart-pulse fa-4x"></i>
+            <h3>Check your Car's Vitals.</h3>
+            <p>Tyre Pressure, Fuel Level, Engine Oil.</p>
+          </div>
+
+          <div class="col-lg-4">
+            <i class="fa-solid fa-arrows-left-right fa-4x"></i>
+            <h3>Works from very very very very very very far away.</h3>
+            <p>50m is very long.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonials-->
+    <section id="testimonials">
+      <div
+        id="carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-keyboard="true"
+        data-interval="10"
+        data-pause="hover"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">
+              Onroad Assistance is the Best in Class, might I say the best ever.
+            </h2>
+            <img
+              class="human-image"
+              src="images/human4.jpg"
+              alt="dog-profile"
+            />
+            <em class="human-name">Jason, Vancouver</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              I no longer have to shiver after entering my BMW. It is so warm
+              and cozy.
+            </h2>
+            <img
+              class="human-image"
+              src="images/human1.jpg"
+              alt="dog-profile"
+            />
+            <em class="human-name">Aaron, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              The feature to Check the Car's vital is a game changer, both
+              emotionally and financially.
+            </h2>
+            <img
+              class="human-image"
+              src="images/human2.jpg"
+              alt="dog-profile"
+            />
+            <em class="human-name">Sarah, Chicago</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              Range of the app is truly amazing, The best I've seen till now.
+            </h2>
+            <img
+              class="human-image"
+              src="images/human3.jpg"
+              alt="dog-profile"
+            />
+            <em class="human-name">Angela, London</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--Press Images-->
+    <section class="press-images-section">
+      <img class="press-images" src="images/bizinsider.png" alt="bizinsider" />
+      <img class="press-images" src="images/mashable.png" alt="mashable" />
+      <img class="press-images" src="images/tnw.png" alt="tnw" />
+      <img class="press-images" src="images/TechCrunch.png" alt="TechCrunch" />
+    </section>
+
+    <!--Pricing-->
+    <section class="pricing-section" id="pricing-section">
+      <h2 class="pricing-text-heading">A plan for every Car Enthusiast.</h2>
+      <p class="pricing-text">Easy to use and Easy on your wallet</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Base Sedan</h4>
+            </div>
+            <div class="card-body">
+              <img
+                src="images/base-sedan.jpg"
+                class="card-img-top"
+                alt="basic-sedan image"
+              />
+              <h1 class="card-title pricing-card-title">
+                $19.99<span class="text-muted fw-light">/mo</span>
+              </h1>
+              <ul class="list-unstyled">
+                <li>1 Vital Car Check</li>
+                <li>2 Air Pressure Checks</li>
+                <li>Onroad Assistance for your car</li>
+                <li class="invisible">hello</li>
+              </ul>
+              <button class="w-100 btn btn-lg btn-outline-dark">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Model X</h4>
+            </div>
+            <div class="card-body">
+              <img
+                src="images/model-x.jpg"
+                class="card-img-top"
+                alt="model-x image"
+              />
+              <h1 class="card-title pricing-card-title">
+                $49.99<span class="text-muted fw-light">/mo</span>
+              </h1>
+              <ul class="list-unstyled">
+                <li>3 Vital Car Checks</li>
+                <li>2 Air Pressure Checks</li>
+                <li>Onroad Assistance for your car and your Friend's Car</li>
+              </ul>
+              <button class="w-100 btn btn-lg btn-dark">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Model I</h4>
+            </div>
+            <div class="card-body">
+              <img
+                src="images/model-i.jpg"
+                class="card-img-top"
+                alt="basic-sedan image"
+              />
+              <h1 class="card-title pricing-card-title">
+                $99.99<span class="text-muted fw-           light">/mo</span>
+              </h1>
+              <ul class="list-unstyled">
+                <li>5 Vital Car Checks</li>
+                <li>Unlimited Air Pressure Checks</li>
+                <li>Onroad Assistance for your car and your Friend's Car</li>
+              </ul>
+              <button class="w-100 btn btn-lg btn-dark">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Call to Action-->
+    <section id="cta-section">
+      <h3 class="tame-text">Tame your Beast Today.</h3>
+      <button type="button" class="download-button3 btn btn-dark btn-lg" onclick="window.location.href='https://apps.apple.com/gb/app/my-bmw/id1519034860';">
+        <i class="fa-brands fa-apple"></i>Download
+      </button>
+      <button type="button" class="download-button4 btn btn-dark btn-lg" onclick="window.location.href='https://play.google.com/store/apps/details?id=de.bmw.connected.mobile20.row&hl=en_IN&gl=US&pli=1';">
+        <i class="fa-brands fa-google-play"></i>Download
+      </button>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer" >
+        <i class="fa-brands fa-instagram icons"></i>
+        <i class="fa-brands fa-twitter icons"></i>
+        <i class="fa-brands fa-facebook icons"></i>
+        <i class="fa-solid fa-envelope icons"></i>
+      <p>© Copyright CYBMW</p>
+    </footer>
+  </body>
+</html>

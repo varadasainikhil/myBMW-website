@@ -1,0 +1,219 @@
+body{
+    font-family: 'Rowdies', cursive;
+    background-color: #011627;
+    padding-bottom: 0%;
+}
+
+#title{
+    background-color: #011627;
+
+}
+
+.navbar{
+    padding-bottom: 3.5rem;
+    
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    color: #FDFFFC;
+}
+
+.nav-item{
+    padding:0% 25px 0 25px;
+    
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    color: #FDFFFC;
+}
+
+.appimage{
+    height: 600px;
+    padding-left: 7rem;
+    padding-top: 0;
+    transform: rotate(15deg);
+    color: #FDFFFC;
+}
+
+.container-fluid{
+    padding: 2% 15%;
+    margin-top: 0%;
+}
+
+.tagline{
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    font-size: 5rem;
+    color: #FDFFFC;
+}
+
+.download-button1 {
+    margin: 3rem 1rem 3rem 4rem;
+}
+
+.download-button2 {
+    margin: 3rem 1rem;
+}
+.row{
+    margin-bottom: 2%;
+}
+#features-section{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FDFFFC;
+    color: #011627;
+}
+
+.fa-4x{
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.fa-3x:hover{
+    color: #2EC4B6;
+}
+
+.human-image{
+    width : 100px;
+    height: 150px;
+    border-radius: 20%;
+    margin: 3% 2%;
+}
+
+.fa-google-play{
+    padding-right: 10px;
+}
+
+.fa-apple{
+    padding-right: 10px;
+}
+
+#img-div{
+    align-items: center;
+    padding-left: 0%;
+    
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    color: #FDFFFC;
+    
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    height: 200px;
+}
+
+.press-images-section{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: #FDFFFC;
+}
+
+.press-images{
+    width: 15%;
+    padding: 2%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-indicators{
+    margin-top: 10%;
+}
+
+.pricing-text-heading{
+    text-align: center;
+    color: #FDFFFC;
+    padding-bottom: 2%;
+    font-size: 3rem;
+}
+
+.pricing-text{
+    text-align: center;
+    color: #FDFFFC;
+    padding-bottom: 2%;
+    font-size: 1.5rem;
+}
+
+.pricing-section{
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.invisible{
+    color: #FDFFFC;
+}
+
+#cta-section{
+    background-color: #FDFFFC;
+    text-align: center;
+    padding: 7% 15% 2%;
+}
+
+.tame-text{
+    font-size: 3rem;
+}
+
+.download-button3{
+    margin: 3rem 1rem;
+}
+
+.download-button4{
+    margin: 3rem 1rem;
+}
+
+.icons{
+    margin: 1%;
+}
+
+#footer{
+    background-color: #FDFFFC;
+    padding: 0;
+    margin: 0%;
+    text-align: center;
+}
+
+
+@media (max-width:992px){
+    .appimage{
+        position: static;
+        transform: rotate(0);
+        margin: auto;
+        padding: 0%;
+    }
+    .tagline{
+        margin-bottom: 15%;
+    }
+
+    .download-button1{
+        margin:auto;
+    }
+    #img-div{
+        text-align: center;
+        margin: auto;
+        
+    }
+
+    .text-downloadbutton{
+        text-align: center;
+    }
+
+    .testimonial{
+        text-align: left;
+        
+    }
+    .human-image{
+        margin-top: 70%;
+        
+    }
+
+    .human-name{
+        position: absolute;
+        top: 80%;
+    }
+
+}
